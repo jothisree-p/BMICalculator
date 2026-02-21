@@ -1,16 +1,53 @@
-# React + Vite
+# BMI Calculator (React App)
+Overview:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+The **BMI Calculator** is a modern React-based web application that allows users to calculate their **Body Mass Index (BMI)** using different units for height and weight. The app provides a personalized result, BMI category, and a visual image representing the result.
 
-Currently, two official plugins are available:
+ Features:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+ 👤 User name input with personalized greeting
+ 📏 Height input with unit selection
 
-## React Compiler
+  * Centimeters (cm)
+  * Inches (in)
+  ⚖️ Weight input with unit selection
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+  * Kilograms (kg)
+  * Pounds (lbs)
+ 🧮 Accurate BMI calculation with automatic unit conversion
+ 📊 Displays BMI category:
 
-## Expanding the ESLint configuration
+  * Underweight
+  * Normal weight
+  * Overweight
+  * Obese
+ 🖼️ Category-based image display
+ 🔄 Reset/Recalculate option
+ 🎨 Modern and clean UI design
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+BMI Formula
+[BMI = \frac{weight (kg)}{height (m)^2}]
+
+Unit conversions used:
+* inches → meters = inches × 0.0254
+* pounds → kg = pounds × 0.453592
+
+ Tech Stack:
+* React.js
+* JavaScript (ES6)
+* CSS3
+* HTML5
+
+Output:
+
+<img width="456" height="843" alt="image" src="https://github.com/user-attachments/assets/f9af7230-0fce-4ade-bd8b-6ba1393fccfa" />
+
+<img width="431" height="791" alt="image" src="https://github.com/user-attachments/assets/f6e447a5-a1e1-4501-ad88-19d715ce3510" />
+
+<img width="363" height="809" alt="image" src="https://github.com/user-attachments/assets/66ee9dd7-3e89-4b54-be75-eb9901d3dce3" />
+
+<img width="358" height="728" alt="image" src="https://github.com/user-attachments/assets/8a780a52-6e45-459b-b8bc-69e9da27b3d0" />
+
+
+
+
