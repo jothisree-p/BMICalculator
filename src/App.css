@@ -1,0 +1,106 @@
+body {
+  margin: 0;
+  font-family:'Poppins', sans-serif;
+  background: linear-gradient(135deg, #141e30, #243b55);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.card {
+
+  background: #1f2937;
+  padding: 30px;
+  border-radius: 15px;
+  width: 350px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+  text-align: center;
+  color: white;
+
+}
+
+.title {
+  margin-bottom: 20px;
+}
+
+.form-group {
+  text-align: left;
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  font-size: 14px;
+}
+
+input, select {
+
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+
+}
+
+.input-row {
+  display: flex;
+  gap: 10px;
+}
+
+.button-group {
+  display: flex;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.btn {
+
+  flex: 1;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+
+}
+
+.primary {
+  background: #3b82f6;
+  color: white;
+}
+
+.primary:hover {
+  background: #3670ec;
+}
+
+.secondary {
+  background: #374151;
+  color: white;
+}
+
+.secondary:hover {
+  background: #4b5563;
+}
+
+.result {
+  margin-top: 20px;
+}
+
+.result img {
+  width: 180px;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+
+.category {
+  color: #40ec7f;
+}
+
+.error {
+  color: rgb(234, 46, 46);
+}
